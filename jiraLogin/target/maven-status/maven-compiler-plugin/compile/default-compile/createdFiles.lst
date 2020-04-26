@@ -1,0 +1,3 @@
+com\boc\tools\jiraLogin\util\UimUtil.class
+com\boc\tools\jiraLogin\auth\ExtAuthenticator.class
+com\boc\tools\jiraLogin\util\Utils.class

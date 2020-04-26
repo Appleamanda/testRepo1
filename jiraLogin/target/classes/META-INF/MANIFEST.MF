@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2020-04-23T11:17:42+0800
+Atlassian-Plugin-Key: com.boc.tools.jiraLogin
+Bnd-LastModified: 1587611863499
+Build-Jdk: 1.8.0_60
+Built-By: baiyan
+Bundle-Description: This is the com.boc.tools:jiraLogin plugin for Atlas
+ sian JIRA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: jiraLogin
+Bundle-SymbolicName: com.boc.tools.jiraLogin
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.boc.tools.jiraLogin.api;version="1.0.0"
+Import-Package: com.atlassian.crowd.embedded.api,com.atlassian.crowd.exc
+ eption,com.atlassian.crowd.exception.runtime,com.atlassian.jira.compone
+ nt,com.atlassian.jira.user,com.atlassian.jira.user.util,com.atlassian.s
+ eraph.auth,com.atlassian.seraph.elevatedsecurity,com.atlassian.seraph.u
+ til,com.google.common.collect,javax.annotation,javax.net.ssl,javax.serv
+ let,javax.servlet.http,javax.sql,javax.ws.rs,javax.ws.rs.core,javax.ws.
+ rs.ext,javax.xml.bind.annotation,javax.xml.datatype,javax.xml.transform
+ ,javax.xml.transform.dom,javax.xml.transform.stream,okhttp3,org.apache.
+ commons.lang,org.apache.commons.logging,org.apache.log4j,org.glassfish.
+ jersey,org.glassfish.jersey.internal.spi,org.glassfish.jersey.internal.
+ util,org.joda.time,org.joda.time.format,org.springframework.core,org.sp
+ ringframework.core.annotation,org.springframework.data.redis.serializer
+ ,org.springframework.http,org.springframework.http.converter,org.spring
+ framework.http.server,org.springframework.messaging,org.springframework
+ .messaging.converter,org.springframework.util,org.springframework.valid
+ ation,org.springframework.web.bind.annotation,org.springframework.web.s
+ ervlet.mvc.method.annotation,org.springframework.web.servlet.view,org.s
+ pringframework.web.socket.sockjs.frame,org.w3c.dom,retrofit2,springfox.
+ documentation.spring.web.json,sun.reflect.annotation
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849

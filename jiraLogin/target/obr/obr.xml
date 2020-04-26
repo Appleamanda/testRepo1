@@ -1,0 +1,67 @@
+<repository lastmodified='20200423111743.951'>
+  <resource id='com.boc.tools.jiraLogin/1.0.0.SNAPSHOT' symbolicname='com.boc.tools.jiraLogin' presentationname='jiraLogin' uri='jiraLogin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>This is the com.boc.tools:jiraLogin plugin for Atlassian JIRA.</description>
+    <size>646863</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.boc.tools.jiraLogin'/>
+      <p n='presentationname' v='jiraLogin'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.boc.tools.jiraLogin.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.atlassian.crowd.embedded.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.crowd.embedded.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.crowd.exception))' extend='false' multiple='false' optional='false'>Import package com.atlassian.crowd.exception</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.crowd.exception.runtime))' extend='false' multiple='false' optional='false'>Import package com.atlassian.crowd.exception.runtime</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.component))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.component</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.user))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.user</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.user.util))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.user.util</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.seraph.auth))' extend='false' multiple='false' optional='false'>Import package com.atlassian.seraph.auth</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.seraph.elevatedsecurity))' extend='false' multiple='false' optional='false'>Import package com.atlassian.seraph.elevatedsecurity</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.seraph.util))' extend='false' multiple='false' optional='false'>Import package com.atlassian.seraph.util</require>
+    <require name='package' filter='(&amp;(package=com.google.common.collect))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect</require>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='false'>Import package javax.net.ssl</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='false'>Import package javax.servlet</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='false'>Import package javax.servlet.http</require>
+    <require name='package' filter='(&amp;(package=javax.sql))' extend='false' multiple='false' optional='false'>Import package javax.sql</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.ext))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.ext</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=javax.xml.datatype))' extend='false' multiple='false' optional='false'>Import package javax.xml.datatype</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.dom</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.stream</require>
+    <require name='package' filter='(&amp;(package=okhttp3))' extend='false' multiple='false' optional='false'>Import package okhttp3</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j))' extend='false' multiple='false' optional='false'>Import package org.apache.log4j</require>
+    <require name='package' filter='(&amp;(package=org.glassfish.jersey))' extend='false' multiple='false' optional='false'>Import package org.glassfish.jersey</require>
+    <require name='package' filter='(&amp;(package=org.glassfish.jersey.internal.spi))' extend='false' multiple='false' optional='false'>Import package org.glassfish.jersey.internal.spi</require>
+    <require name='package' filter='(&amp;(package=org.glassfish.jersey.internal.util))' extend='false' multiple='false' optional='false'>Import package org.glassfish.jersey.internal.util</require>
+    <require name='package' filter='(&amp;(package=org.joda.time))' extend='false' multiple='false' optional='false'>Import package org.joda.time</require>
+    <require name='package' filter='(&amp;(package=org.joda.time.format))' extend='false' multiple='false' optional='false'>Import package org.joda.time.format</require>
+    <require name='package' filter='(&amp;(package=org.springframework.core))' extend='false' multiple='false' optional='false'>Import package org.springframework.core</require>
+    <require name='package' filter='(&amp;(package=org.springframework.core.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.core.annotation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.data.redis.serializer))' extend='false' multiple='false' optional='false'>Import package org.springframework.data.redis.serializer</require>
+    <require name='package' filter='(&amp;(package=org.springframework.http))' extend='false' multiple='false' optional='false'>Import package org.springframework.http</require>
+    <require name='package' filter='(&amp;(package=org.springframework.http.converter))' extend='false' multiple='false' optional='false'>Import package org.springframework.http.converter</require>
+    <require name='package' filter='(&amp;(package=org.springframework.http.server))' extend='false' multiple='false' optional='false'>Import package org.springframework.http.server</require>
+    <require name='package' filter='(&amp;(package=org.springframework.messaging))' extend='false' multiple='false' optional='false'>Import package org.springframework.messaging</require>
+    <require name='package' filter='(&amp;(package=org.springframework.messaging.converter))' extend='false' multiple='false' optional='false'>Import package org.springframework.messaging.converter</require>
+    <require name='package' filter='(&amp;(package=org.springframework.util))' extend='false' multiple='false' optional='false'>Import package org.springframework.util</require>
+    <require name='package' filter='(&amp;(package=org.springframework.validation))' extend='false' multiple='false' optional='false'>Import package org.springframework.validation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.web.bind.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.web.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.web.servlet.mvc.method.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.web.servlet.mvc.method.annotation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.web.servlet.view))' extend='false' multiple='false' optional='false'>Import package org.springframework.web.servlet.view</require>
+    <require name='package' filter='(&amp;(package=org.springframework.web.socket.sockjs.frame))' extend='false' multiple='false' optional='false'>Import package org.springframework.web.socket.sockjs.frame</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=retrofit2))' extend='false' multiple='false' optional='false'>Import package retrofit2</require>
+    <require name='package' filter='(&amp;(package=springfox.documentation.spring.web.json))' extend='false' multiple='false' optional='false'>Import package springfox.documentation.spring.web.json</require>
+    <require name='package' filter='(&amp;(package=sun.reflect.annotation))' extend='false' multiple='false' optional='false'>Import package sun.reflect.annotation</require>
+  </resource>
+</repository>
